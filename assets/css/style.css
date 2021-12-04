@@ -1,0 +1,18 @@
+.title {
+    text-align: center;
+    text-decoration: 3px #BBFFB3 dotted;
+}
+
+.dificulty-selector{
+    text-align: center;
+}
+.dificulty-selector button{
+    padding: 20px;
+    margin: 30px;
+    font-size: 15px;
+    background-color:#BBFFB3;
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 25%;
+}
