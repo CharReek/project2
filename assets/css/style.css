@@ -16,3 +16,14 @@
     border: 2px solid black;
     width: 25%;
 }
+.question-section{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #BBFFB3;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 30px;
+}
+.question {
+    text-align: center;
+}
