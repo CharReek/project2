@@ -7,16 +7,6 @@ body{
 }
 /* header and title */
 
-#header-outer{
-    overflow: hidden;
-    position: relative;
-}
-#header-image{
-    background: url(../images/header.jpg) no-repeat center center;
-    height: 200px;
-    width:100%;
-}
-
 #title {
     text-align: center;
 }
