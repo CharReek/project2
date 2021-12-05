@@ -4,10 +4,11 @@ body{
     font-family: Montserrat, sans-serif;
     font-weight: 300;
     color: black;
+    
 }
 /* header and title */
 
-#title {
+.title {
     text-align: center;
 }
 
@@ -18,21 +19,36 @@ body{
     padding: 20px;
     margin: 30px;
     font-size: 15px;
-    background-color:#afbacc;
+    background-color:#F4CAF9;
     display: inline-block;
     border-radius: 10px;
-    border: 2px solid black;
-    width: 40%;
+    border: 2px solid #4F4350;
+    width: 25%;
 }
+/* start button */
+.start{
+    text-align: center;
+}
+#start-button{ 
+    padding: 20px;
+    margin: 30px;
+    font-size: 15px;
+    background-color:#F4CAF9;
+    border-radius: 10px;
+    border: 2px solid #4F4350;
+    width: 25%;
+}
+
 /* question section */
 .question-section{
     border-style: solid;
     border-width: 2px;
-    border-color: #afbacc;
+    border-color: #4F4350;
     border-radius: 10px;
     padding:0, 50px;
     margin: 30px;
     text-align: center;
+    background-color:  #b5a7b6;
 }
 .question {
     text-align: center;
@@ -44,10 +60,10 @@ body{
     padding: 20px;
     margin: 30px;
     font-size: 15px;
-    background-color:#afbacc;
+    background-color:#F4CAF9;
     display: inline-block;
     border-radius: 10px;
-    border: 2px solid black;
+    border: 2px solid #4F4350;
     width: 40%;
 }
 /*score sections*/
