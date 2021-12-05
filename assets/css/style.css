@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    color: black;
+}
 /* header and title */
 
 #header-outer{
@@ -21,7 +28,7 @@
     padding: 20px;
     margin: 30px;
     font-size: 15px;
-    background-color:#BBFFB3;
+    background-color:#afbacc;
     display: inline-block;
     border-radius: 10px;
     border: 2px solid black;
@@ -31,10 +38,11 @@
 .question-section{
     border-style: solid;
     border-width: 2px;
-    border-color: #BBFFB3;
+    border-color: #afbacc;
     border-radius: 10px;
-    padding: 50px;
+    padding:0, 50px;
     margin: 30px;
+    text-align: center;
 }
 .question {
     text-align: center;
@@ -46,11 +54,9 @@
     padding: 20px;
     margin: 30px;
     font-size: 15px;
-    background-color:#BBFFB3;
+    background-color:#afbacc;
     display: inline-block;
     border-radius: 10px;
     border: 2px solid black;
     width: 40%;
-    text-align: center;
-    clear: both;
 }
