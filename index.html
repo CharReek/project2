@@ -14,27 +14,27 @@
     <div class="title" >
         <h1>The Ultimate Fashion Quiz</h1>
     </div>
-    <div>
+    <div class="game-box">
         <div class="dificulty-selector">
-            <button class="easy-button">Easy</button>
-            <button class="hard-button">Hard</button>
+            <button class="btn" id="easy-button">Easy</button>
+            <button class="btn" id="hard-button">Hard</button>
         </div>
-        <div class="start">
-            <button id="start-button"> start</button>
-        </div>
-        <div class="question-section">
+        <div class="question-section" id="hide">
+            <div>
+                <button class="btn" id="start-button"> Start</button>
+            </div>
             <span class="question"> 
                 <h1> Questions</h1>
             </span>
             <div class="answer-section">
-                <button class="answer1">answer1</button>
-                <button class="answer2">answer2</button>
-                <button class="answer3">answer3</button>
-                <button class="answer4">answer4</button>
+                <button class="btn" id="answer1">answer1</button>
+                <button class="btn" id="answer2">answer2</button>
+                <button class="btn" id="answer3">answer3</button>
+                <button class="btn" id="answer4">answer4</button>
             </div>
-        </div>
-        <div class="score-section">
-            <h3 class="current-score"> Current Score:</h3>
+            <div class="score-section">
+                <h3 class="current-score"> Current Score:</h3>
+            </div>
         </div>
     </div>
     <script src="/assets/js/script.js"></script>
