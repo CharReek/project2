@@ -24,19 +24,6 @@ body{
     text-align: center;
 }
 
-.dificulty-selector{
-    text-align: center;
-}
-.dificulty-selector button{
-    padding: 20px;
-    margin: 30px;
-    font-size: 30px;
-    background-color:#F4CAF9;
-    display: inline-block;
-    border-radius: 10px;
-    border: 2px solid #4F4350;
-    width: 25%;
-}
 /* start button */
 
 #start-button{ 
@@ -75,6 +62,10 @@ body{
 .btn:hover{
     color: white;
     background-color:#4F4350 ;
+}
+.start-btn:hover{
+    color: white;
+    background-color: #4F4350 ;
 }
 
 #hide{
