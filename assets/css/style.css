@@ -63,11 +63,11 @@ body{
     color: white;
     background-color:#4F4350 ;
 }
-.start-btn:hover{
+#start-button:hover{
     color: white;
     background-color: #4F4350 ;
 }
 
-#hide{
+.hide{
     display:none;
 }
