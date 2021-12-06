@@ -37,13 +37,17 @@ body{
 }
 
 /* question section */
-.question {
+#question {
     text-align: center;
     clear: both;
+    font-size: 30px;
+}
+#question-section{
+    padding-top: 20px;
 }
 /* answer section*/
 
-.answer-section button{
+#answer-section button{
     padding: 20px;
     margin: 30px;
     font-size: 15px;
