@@ -53,6 +53,17 @@ function selectAnswer(e){
 }
 
 function setStatusClass(element, correct){
+    clearStatusClass(element)
+    if (correct){
+        elemenent.classList.add('correct')
+    } else {
+        element.classList.add('incorrect')
+    }
+}
+
+function clearStatusClass(element){
+    elemenent.classList.remove('correct')
+    element.classList.remove('incorrect')
 }
 
 
@@ -65,5 +76,23 @@ let questions = [
             {text: "Dogs & Goats", correct: false},
             {text: "Dave & Gary", correct: false}
         ]
-    }
+    },
+    {
+        question: "Who is known for the famous red sole?",
+        answers:[
+            {text: "Gucci", correct: false},
+            {text: "Balenciaga", correct : false},
+            {text: "Christian Loboutin", correct: true},
+            {text: "Prada", correct: false}
+        ]
+    },
+    {
+        question: "Who made the little black dress famous?",
+        answers:[
+            {text: "Tiffany", correct: false},
+            {text: "Coco Chanel", correct : true},
+            {text: "Givencey", correct: false},
+            {text: "Dior", correct: false}
+        ]
+    },
 ]
