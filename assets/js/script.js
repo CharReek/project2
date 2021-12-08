@@ -4,8 +4,6 @@ let questionSection = document.getElementById("question-section")
 let questionElement= document.getElementById("question")
 let answerButtons =document.getElementById("answer-section")
 
-let shuffleQuestions, currentQuestion
-
 startButton.addEventListener("click" , startGame)
 
 function startGame(){
@@ -18,28 +16,13 @@ setQuestion()
 }
 
 function setQuestion(){
-    resetState()
-    showNextQuestion(shuffleQuestions[currentQuestion])
+    
 }
 
 function showNextQuestion(question){
-    questionElement.innerText = question.question
-    question.answers.forEach(answer => {
-        let button = document.createElement('button')
-        button.innerText = answer.text
-        button.classList.add('btn')
-        if (answer.correct){
-            button.dataset.correct = answer.correct
-        }
-        button.addEventListener ('click', selectAnswer)
-        answerButtons.appendChild(button)
-    })
 }
 
 function resetState (){
-    while (answerButtons.firstChild){
-        answerButtons.removeChild(answerButtons.firstChild)
-    }
 }
 
 
@@ -70,29 +53,19 @@ function clearStatusClass(element){
 let questions = [
     {
         question: "What does D&G stand for?",
-        answers:[
-            {text: "Dolce & Gabanna", correct: true},
-            {text: "Designer & Garments", correct : false},
-            {text: "Dogs & Goats", correct: false},
-            {text: "Dave & Gary", correct: false}
-        ]
+        choice1:"Designer & Garments",
+        choice2:"Dolce & Gabbana",
+        choice3:"Dogs & Goats",
+        choice4:"Dave & Gary",
+        answer:2
     },
     {
         question: "Who is known for the famous red sole?",
-        answers:[
-            {text: "Gucci", correct: false},
-            {text: "Balenciaga", correct : false},
-            {text: "Christian Loboutin", correct: true},
-            {text: "Prada", correct: false}
-        ]
+        choice1:"Gucci",
+        choice2:"Balenciaga",
+        choice3:"Christian Loboutin",
+        choice4:"Prada",
+        answer:3
     },
-    {
-        question: "Who made the little black dress famous?",
-        answers:[
-            {text: "Tiffany", correct: false},
-            {text: "Coco Chanel", correct : true},
-            {text: "Givencey", correct: false},
-            {text: "Dior", correct: false}
-        ]
-    },
+
 ]
