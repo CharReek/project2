@@ -4,52 +4,7 @@ let questionSection = document.getElementById("question-section")
 let questionElement= document.getElementById("question")
 let answerButtons =document.getElementById("answer-section")
 
-startButton.addEventListener("click" , startGame)
-
-function startGame(){
-console.log("start")
-startButton.classList.add('hide')
-shuffleQuestions = questions.sort(() => Math.random() -.5)
-currentQuestion = 0
-questionSection.classList.remove('hide')
-setQuestion()
-}
-
-function setQuestion(){
-    
-}
-
-function showNextQuestion(question){
-}
-
-function resetState (){
-}
-
-
-function selectAnswer(e){
-    let selectedButton = e.target
-    let correct = selectedButton.dataset.correct
-    setStatusClass(document.body, correct)
-    Array.from(answerButtons.children).forEach(button =>{
-        setStatusClass(button, button.dataset.correct)
-    })
-}
-
-function setStatusClass(element, correct){
-    clearStatusClass(element)
-    if (correct){
-        elemenent.classList.add('correct')
-    } else {
-        element.classList.add('incorrect')
-    }
-}
-
-function clearStatusClass(element){
-    elemenent.classList.remove('correct')
-    element.classList.remove('incorrect')
-}
-
-
+let currentScore = 0
 let questions = [
     {
         question: "What does D&G stand for?",
@@ -69,3 +24,40 @@ let questions = [
     },
 
 ]
+startButton.addEventListener("click" , startGame)
+/**
+ * starts the game and take it to the set question function
+ */
+function startGame(){
+console.log("start")
+startButton.classList.add('hide')
+questionSection.classList.remove('hide')
+setQuestion()
+}
+
+/**
+ * starts the next question
+ */
+function nextQuestion(index){
+}
+
+/**
+ * check the correct answer against the users answer
+ */
+function checkAnswer(){
+    let usersAnswer = parseInt(document.getElementById(answer-section).innerHTML)
+    let correctAnswer = usersAnswer === answer[0]
+    if (correctAnswer) {
+        alert ("Congrats! you were correct!")
+    } else {
+        alert (`You answered ${usersAnswer} the correct answer was ${correctAnswer[0]}`)
+    }
+}
+
+/**
+ * increases score by 1 everytime a question is correct 
+ */
+function score(){
+    let oldScore = parseInt(document.getElementById(current-score).innerText)
+    document.getElementById(current-score).innerText = ++oldScore
+}
