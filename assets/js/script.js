@@ -109,66 +109,66 @@ const questions = [
         ]
     },
     {
-        question: "What does D&G stand For?",
+        question: "Who made the LBD famous?",
         answers:[
-            {text:"Dolce & Gabbana", correct: true},
-            {text:"Designer & Garments", correct: false},
-            {text:"Dog & Goose", correct: false},
-            {text:"Dave & Gary", correct: false}
+            {text:"Givenchy", correct:false},
+            {text:"Coco Chanel", correct: true},
+            {text:"Dior", correct: false},
+            {text:"Yves Saint Laurent", correct: false}
         ]
     },
     {
-        question: "What does D&G stand For?",
+        question: "Which of thes ebrands were founded in England??",
         answers:[
-            {text:"Dolce & Gabbana", correct: true},
-            {text:"Designer & Garments", correct: false},
-            {text:"Dog & Goose", correct: false},
-            {text:"Dave & Gary", correct: false}
+            {text:"Ganni", correct: false},
+            {text:"Louis Vuitton", correct: false},
+            {text:"Prada", correct: false},
+            {text:"Burberry", correct: true}
         ]
     },
     {
-        question: "What does D&G stand For?",
+        question: "What year did Alexander Mcqueen release the oversized sneaker?",
         answers:[
-            {text:"Dolce & Gabbana", correct: true},
-            {text:"Designer & Garments", correct: false},
-            {text:"Dog & Goose", correct: false},
-            {text:"Dave & Gary", correct: false}
+            {text:"2012", correct: false},
+            {text:"2014", correct: true},
+            {text:"2017", correct: false},
+            {text:"2015", correct: false}
         ]
     },
     {
-        question: "What does D&G stand For?",
+        question: "Where was the brand Ganni Founded?",
         answers:[
-            {text:"Dolce & Gabbana", correct: true},
-            {text:"Designer & Garments", correct: false},
-            {text:"Dog & Goose", correct: false},
-            {text:"Dave & Gary", correct: false}
+            {text:"Milan", correct: false},
+            {text:"London", correct: false},
+            {text:"Copenhagen", correct: true},
+            {text:"Berlin", correct: false}
         ]
     },
     {
-        question: "What does D&G stand For?",
+        question: "What year was Dior established?",
         answers:[
-            {text:"Dolce & Gabbana", correct: true},
-            {text:"Designer & Garments", correct: false},
-            {text:"Dog & Goose", correct: false},
-            {text:"Dave & Gary", correct: false}
+            {text:"1950", correct: false},
+            {text:"1942", correct: false},
+            {text:"1940", correct: false},
+            {text:"1946", correct: true}
         ]
     },
     {
-        question: "What does D&G stand For?",
+        question: "What brand is known for chunky trainers?",
         answers:[
-            {text:"Dolce & Gabbana", correct: true},
-            {text:"Designer & Garments", correct: false},
-            {text:"Dog & Goose", correct: false},
-            {text:"Dave & Gary", correct: false}
+            {text:"Balenciaga", correct: true},
+            {text:"Gucci", correct: false},
+            {text:"Dior", correct: false},
+            {text:"Prada", correct: false}
         ]
     },
     {
-        question: "What does D&G stand For?",
+        question: "What city is considered the fashion capital(2021)?",
         answers:[
-            {text:"Dolce & Gabbana", correct: true},
-            {text:"Designer & Garments", correct: false},
-            {text:"Dog & Goose", correct: false},
-            {text:"Dave & Gary", correct: false}
+            {text:"New York", correct: true},
+            {text:"Milan", correct: false},
+            {text:"Paris", correct: false},
+            {text:"London", correct: false}
         ]
     },
 ]
