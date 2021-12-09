@@ -27,5 +27,18 @@ function startGame(){
 function setNextQuestion(){
     resetGame();
     showQuestions(currentQuestionIndex);
-    
+}
+
+function showQuestions(question){
+    questionText.innerText = question.question;
+    question.answer.forEach(answer => {
+        const button = document.createElement("button");
+        button.innerText = answer.correct;
+        button.classList.add("btn");
+        if (answer.correct){
+            button.dataset.correct = answer.correct;
+        }
+        button.addEventListener('click', selectAnswer);
+        answerButtons.appendChild(button);
+    });
 }
