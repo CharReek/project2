@@ -1,10 +1,12 @@
-
+ 
 let startButton = document.getElementById("start-button")
 let questionSection = document.getElementById("question-section")
 let questionElement= document.getElementById("question")
 let answerButtons =document.getElementById("answer-section")
 
 let currentScore = 0
+let index=0
+maxQuestions = 10 
 let questions = [
     {
         question:"What does D&G stand for?",
@@ -87,7 +89,9 @@ let questions = [
         answer:3
     },
 ]
+
 startButton.addEventListener("click" , startGame)
+
 /**
  * starts the game and take it to the set question function
  */
@@ -98,13 +102,18 @@ questionSection.classList.remove('hide')
 setQuestion()
 }
 
-/**
- * starts the next question
- */
-function nextQuestion(index){
-    for(var i =0; i < questions.length; i++){
+let currentQuestion
 
-    }
+/**
+ * starts the question
+ */
+
+function setQuestion(){
+    document.getElementById("question").innerHTML = questions[0];
+    document.getElementById("choice1").innerHTML= "h";
+    document.getElementById("choice2").innerHTML= "e"
+    document.getElementById("choice3").innerHTML= "3"
+    document.getElementById("choice4").innerHTML= "2"
 }
 
 /**
@@ -113,11 +122,6 @@ function nextQuestion(index){
 function checkAnswer(){
     let usersAnswer = parseInt(document.getElementById(answer-section).innerHTML)
     let correctAnswer = usersAnswer === questions.answer[i]
-    if (correctAnswer) {
-        alert ("Congrats! you were correct!")
-    } else {
-        alert (`You answered ${usersAnswer} the correct answer was ${correctAnswer[0]}`)
-    }
 }
 
 /**
