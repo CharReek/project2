@@ -5,9 +5,11 @@ const questionSection = document.getElementById("question-section");
 const questionText = document.getElementById("question-text");
 const answerButtons = document.getElementById("answer-section");
 
+index=0 
+
 // vars for the questions
 
-let currentQuestionIndex;
+let shuffeledQuestions, currentQuestionIndex;
 
 startButton.addEventListener("click", startGame);
 nextButton.addEventListener("click", () => {
@@ -19,6 +21,7 @@ nextButton.addEventListener("click", () => {
 
 function startGame(){
     startButton.classList.add("hide");
+    shuffeledQuestions = questions.sort(() => Math.random() - .5);
     currentQuestionIndex = 0;
     questionSection.classList.remove("hide");
     setNextQuestion
@@ -26,7 +29,7 @@ function startGame(){
 
 function setNextQuestion(){
     resetGame();
-    showQuestions(currentQuestionIndex);
+    showQuestions(shuffeledQuestions [currentQuestionIndex]);
 }
 
 function showQuestions(question){
@@ -56,7 +59,11 @@ function selectAnswer(e){
     array.from(answerButtons.children).forEach(button => { 
         setStatus (button, button.dataset.correct);
     });
-    // add in if else statment regarding if there are more questions 
+    if (shuffeledQuestions.lenght > currentQuestionIndex +1){
+        nextButton.classList.remove("hide")
+    } else {
+        alert("congrats! You finished the quiz!")
+    }
 }
 
 function setStatus (element, correct){
@@ -72,3 +79,96 @@ function clearStatus (element){
     element.classList.remove("correct")
     element.classList.remove("wrong")
 }
+
+const questions = [
+    {
+        question: "What does D&G stand For?",
+        answers:[
+            {text:"Dolce & Gabbana", correct: true},
+            {text:"Designer & Garments", correct: false},
+            {text:"Dog & Goose", correct: false},
+            {text:"Dave & Gary", correct: false}
+        ]
+    },
+    {
+        question: "Who is known for the famous red sole?",
+        answers:[
+            {text:"Balenciaga", correct: false},
+            {text:"Gucci", correct: false},
+            {text:"Christian Loboutin", correct: true},
+            {text:"Prada", correct: false}
+        ]
+    },
+    {
+        question: "Who designed the iconic Jlo Green dress she wore to the 42nd Grammys in 2000?",
+        answers:[
+            {text:"Moschino", correct: true},
+            {text:"Valentino", correct: false},
+            {text:"Dior", correct: false},
+            {text:"Versace", correct: true}
+        ]
+    },
+    {
+        question: "What does D&G stand For?",
+        answers:[
+            {text:"Dolce & Gabbana", correct: true},
+            {text:"Designer & Garments", correct: false},
+            {text:"Dog & Goose", correct: false},
+            {text:"Dave & Gary", correct: false}
+        ]
+    },
+    {
+        question: "What does D&G stand For?",
+        answers:[
+            {text:"Dolce & Gabbana", correct: true},
+            {text:"Designer & Garments", correct: false},
+            {text:"Dog & Goose", correct: false},
+            {text:"Dave & Gary", correct: false}
+        ]
+    },
+    {
+        question: "What does D&G stand For?",
+        answers:[
+            {text:"Dolce & Gabbana", correct: true},
+            {text:"Designer & Garments", correct: false},
+            {text:"Dog & Goose", correct: false},
+            {text:"Dave & Gary", correct: false}
+        ]
+    },
+    {
+        question: "What does D&G stand For?",
+        answers:[
+            {text:"Dolce & Gabbana", correct: true},
+            {text:"Designer & Garments", correct: false},
+            {text:"Dog & Goose", correct: false},
+            {text:"Dave & Gary", correct: false}
+        ]
+    },
+    {
+        question: "What does D&G stand For?",
+        answers:[
+            {text:"Dolce & Gabbana", correct: true},
+            {text:"Designer & Garments", correct: false},
+            {text:"Dog & Goose", correct: false},
+            {text:"Dave & Gary", correct: false}
+        ]
+    },
+    {
+        question: "What does D&G stand For?",
+        answers:[
+            {text:"Dolce & Gabbana", correct: true},
+            {text:"Designer & Garments", correct: false},
+            {text:"Dog & Goose", correct: false},
+            {text:"Dave & Gary", correct: false}
+        ]
+    },
+    {
+        question: "What does D&G stand For?",
+        answers:[
+            {text:"Dolce & Gabbana", correct: true},
+            {text:"Designer & Garments", correct: false},
+            {text:"Dog & Goose", correct: false},
+            {text:"Dave & Gary", correct: false}
+        ]
+    },
+]
