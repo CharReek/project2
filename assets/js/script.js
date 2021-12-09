@@ -14,3 +14,11 @@ nextButton.addEventListener("click", () => {
     currentQuestionIndex++;
     setNextQuestion();
 });
+
+//quiz function 
+
+function startGame(){
+    startButton.classList.add("hide");
+    currentQuestionIndex = 0;
+    questionSection.classList.remove("hide");
+}
