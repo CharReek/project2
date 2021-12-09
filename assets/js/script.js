@@ -67,3 +67,8 @@ function setStatus (element, correct){
         element.classList.add("wrong")
     }
 }
+
+function clearStatus (element){
+    element.classList.remove("correct")
+    element.classList.remove("wrong")
+}
