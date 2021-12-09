@@ -42,3 +42,10 @@ function showQuestions(question){
         answerButtons.appendChild(button);
     });
 }
+
+function resetGame(){
+    nextButton.classList.add("hide");
+    while (answerButtons.firstChild){
+        answerButtons.removeChild(answerButtons.firstChild)
+    }
+}
