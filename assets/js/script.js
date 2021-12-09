@@ -46,6 +46,24 @@ function showQuestions(question){
 function resetGame(){
     nextButton.classList.add("hide");
     while (answerButtons.firstChild){
-        answerButtons.removeChild(answerButtons.firstChild)
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
+}
+
+function selectAnswer(e){
+    const selectedAnswer = e.target;
+    const correct = selectAnswer.dataset.correct;
+    array.from(answerButtons.children).forEach(button => { 
+        setStatus (button, button.dataset.correct);
+    });
+    // add in if else statment regarding if there are more questions 
+}
+
+function setStatus (element, correct){
+    clearStatus(element);
+    if (correct){
+        element.classList.add("correct")
+    } else {
+        element.classList.add("wrong")
     }
 }
