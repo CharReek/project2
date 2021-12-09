@@ -21,4 +21,11 @@ function startGame(){
     startButton.classList.add("hide");
     currentQuestionIndex = 0;
     questionSection.classList.remove("hide");
+    setNextQuestion
+}
+
+function setNextQuestion(){
+    resetGame();
+    showQuestions(currentQuestionIndex);
+    
 }
