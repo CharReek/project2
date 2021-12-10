@@ -29,19 +29,20 @@ This site is designed for users who enjoy both fashion and coding and want to fu
 
   # Deployment
 I deployed my site using github using the following process: 
-1. Go to your git hub repositories and click on the repository you want to deploy 
-2. Go into the settings page, this can be found across the top bar 
-3. Then find the pages tab, this can be located on the left hand side
-4. Once you are on the pages tab find the source section.
-5. The source section will contain a drop down menu.
-6. From this drop down menu select the main branch
-7. After you have done this click save. 
-8. The page will then refresh and a banner will appear with the live link to your page 
+1. Go to your git hub repositories, then click on the repository you want to deploy. 
+2. Go into the settings page, this is located across the top bar.
+3. Then go to the pages tab, this can be located on the left hand side.
+4. When you have reached the pages tab,find the source section.
+5. Tis will contain a drop down menu.
+6. From this drop down menu select the main branch.
+7. After you have done this pess save. 
+8. The page will then refresh and a banner will appear with the live link to your page. 
 9. Finally click the link and this will take you to the live page. 
 
 Notes: the live page may take a few minutes to be deployed so may not work straight away 
 
 The live link to my website can be found below:
+
 
   # credits
 https://www.youtube.com/watch?v=riDzcEQbX6k - how to set up mutiple and make them random questions 
