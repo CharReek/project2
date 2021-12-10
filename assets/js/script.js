@@ -12,7 +12,6 @@ let shuffledQuestions, currentQuestionIndex;
 
 startButton.addEventListener("click", startGame);
 nextButton.addEventListener("click", () => {
-    currentQuestionIndex++;
     setNextQuestion();
 });
 
@@ -23,7 +22,7 @@ function startGame(){
     shuffledQuestions = questions.sort(() => Math.random() - .5);
     currentQuestionIndex = 0;
     questionSection.classList.remove("hide");
-    setNextQuestion
+    setNextQuestion()
 }
 
 function setNextQuestion(){
@@ -61,10 +60,11 @@ function selectAnswer(e){
         setStatus(button, button.dataset.correct);
     })
     if (shuffledQuestions.length > currentQuestionIndex + 1){
-        nextButton.classList.remove("hide")
+        nextButton.classList.remove("hide");
+        currentQuestionIndex++;
     } else {
-        alert("congrats! You finished the quiz!")
-    }
+        alert("congrats! You finished the quiz!");
+    };
 };
 
 function setStatus (element, correct){
@@ -101,7 +101,7 @@ const questions = [
         ]
     },
     {
-        question: "Who designed the iconic Jlo Green dress she wore to the 42nd Grammys in 2000?",
+        question: "Who designed the iconic Jlo Green dress that she wore to the 42nd Grammys in 2000?",
         answers:[
             {text:"Moschino", correct: true},
             {text:"Valentino", correct: false},
