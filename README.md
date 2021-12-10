@@ -6,6 +6,7 @@ This site is designed for users who enjoy both fashion and coding and want to fu
 # Features 
 ## Excisting Features 
  
+ * Header 
  * Start button 
  * Questions 
  * Answer Buttons 
@@ -13,6 +14,9 @@ This site is designed for users who enjoy both fashion and coding and want to fu
 
  ### Feautures left to impliment 
   * Score Area 
+  One feautre i would like to impliment is a score area, where users can see how many questions that they got right. I would also like to ensure that it stores this so they can retry the quiz to beat any previous scores. 
+  * More Questions 
+  i would also liek to add more questiosn to the quiz and set a question limit to 10 so that every time you play the quiz you get a different selection of questions. therefore testing the users knowledge on fashion and entising them in to try again. 
 
   # Testing
 
