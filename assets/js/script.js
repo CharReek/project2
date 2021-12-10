@@ -49,7 +49,6 @@ function resetGame(){
     while (answerButtons.firstChild){
         answerButtons.removeChild(answerButtons.firstChild);
     }
-    document.body.style.backgroundColor = "white"
 }
 
 function selectAnswer(e){
@@ -62,8 +61,8 @@ function selectAnswer(e){
         
     } else {
         alert("congrats! You finished the quiz!");
-    };
-};
+    }
+}
 
 function setStatus (element, correct){
     if (correct){
@@ -171,5 +170,5 @@ const questions = [
             {text:"Paris", correct: false},
             {text:"London", correct: false}
         ]
-    },
-]
+    }
+];
