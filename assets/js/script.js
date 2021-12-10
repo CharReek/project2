@@ -119,7 +119,7 @@ const questions = [
         ]
     },
     {
-        question: "Which of these brands were founded in England??",
+        question: "Which of these brands was founded in England??",
         answers:[
             {text:"Ganni", correct: false},
             {text:"Louis Vuitton", correct: false},
