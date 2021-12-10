@@ -55,10 +55,7 @@ function resetGame(){
 function selectAnswer(e){
     const selectedButton = e.target;
     const correct = selectedButton.dataset.correct;
-    setStatus(document.body, correct);
-    Array.from(answerButtons.children).forEach(button => { 
-        setStatus(button, button.dataset.correct);
-    })
+    setStatus(selectedButton, correct);
     if (shuffledQuestions.length > currentQuestionIndex + 1){
         nextButton.classList.remove("hide");
         currentQuestionIndex++;
@@ -71,10 +68,10 @@ function selectAnswer(e){
 function setStatus (element, correct){
     if (correct){
         element.classList.add("correct");
-        document.body.style.backgroundColor = "green"
+        element.style.backgroundColor = "green";
     } else {
         element.classList.add("wrong");
-        document.body.style.backgroundColor = "red"
+        element.style.backgroundColor = "red";
     }
     clearStatus(element);
 }
