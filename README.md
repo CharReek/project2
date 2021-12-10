@@ -25,7 +25,7 @@ This site is designed for users who enjoy both fashion and coding and want to fu
 
 
   # Unfixed Bugs 
-  * There are nu unfixed bugs that i am aware.
+  * There are no unfixed bugs that i am aware of.
 
 
   # Deployment
