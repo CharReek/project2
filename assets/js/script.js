@@ -49,6 +49,7 @@ function resetGame(){
     while (answerButtons.firstChild){
         answerButtons.removeChild(answerButtons.firstChild);
     }
+    document.body.style.backgroundColor = "white"
 }
 
 function selectAnswer(e){
@@ -68,12 +69,14 @@ function selectAnswer(e){
 };
 
 function setStatus (element, correct){
-    clearStatus(element);
     if (correct){
         element.classList.add("correct");
+        document.body.style.backgroundColor = "green"
     } else {
         element.classList.add("wrong");
+        document.body.style.backgroundColor = "red"
     }
+    clearStatus(element);
 }
 
 function clearStatus (element){

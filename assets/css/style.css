@@ -87,10 +87,10 @@ body{
 .hide{
     display:none;
 }
-.btn.correct{
+.correct{
     background-color: green;
     color: black;
 }
-.btn.wrong{
+.wrong{
     background-color: red;
 }

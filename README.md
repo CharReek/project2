@@ -19,7 +19,7 @@ This site is designed for users who enjoy both fashion and coding and want to fu
   i would also liek to add more questiosn to the quiz and set a question limit to 10 so that every time you play the quiz you get a different selection of questions. therefore testing the users knowledge on fashion and entising them in to try again. 
 
   # Testing
-
+  * 
   ## Validator Testing 
 
 
@@ -39,11 +39,11 @@ I deployed my site using github using the following process:
 8. The page will then refresh and a banner will appear with the live link to your page. 
 9. Finally click the link and this will take you to the live page. 
 
-Notes: the live page may take a few minutes to be deployed so may not work straight away 
+Notes: The live page may take a few minutes to be deployed so may not work straight away 
 
 The live link to my website can be found below:
 
 
-  # credits
+  # Credits
   * I used the below youtube video as a guide on how to set up mutiple buttons and answers and how to randomise the questions section and implement the answers along with the question.- https://www.youtube.com/watch?v=riDzcEQbX6k
   * I used my own fashion knowledge to come up with the questions using the knowledge i have gained over brand training events with my work. 
