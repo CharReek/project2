@@ -22,7 +22,7 @@ function startGame(){
     shuffledQuestions = questions.sort(() => Math.random() - .5);
     currentQuestionIndex = 0;
     questionSection.classList.remove("hide");
-    setNextQuestion()
+    setNextQuestion();
 }
 
 function setNextQuestion(){
@@ -45,7 +45,7 @@ function showQuestion(question){
 }
 
 function resetGame(){
-    clearStatus(document.body)
+    clearStatus(document.body);
     nextButton.classList.add("hide");
     while (answerButtons.firstChild){
         answerButtons.removeChild(answerButtons.firstChild);
@@ -53,9 +53,9 @@ function resetGame(){
 }
 
 function selectAnswer(e){
-    const selectedButton = e.target
+    const selectedButton = e.target;
     const correct = selectedButton.dataset.correct;
-    setStatus(document.body, correct)
+    setStatus(document.body, correct);
     Array.from(answerButtons.children).forEach(button => { 
         setStatus(button, button.dataset.correct);
     })
@@ -70,15 +70,15 @@ function selectAnswer(e){
 function setStatus (element, correct){
     clearStatus(element);
     if (correct){
-        element.classList.add("correct")
+        element.classList.add("correct");
     } else {
-        element.classList.add("wrong")
+        element.classList.add("wrong");
     }
 }
 
 function clearStatus (element){
-    element.classList.remove("correct")
-    element.classList.remove("wrong")
+    element.classList.remove("correct");
+    element.classList.remove("wrong");
 }
 
 const questions = [
