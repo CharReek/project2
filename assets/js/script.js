@@ -46,7 +46,6 @@ function showQuestion(question){
 
 function resetGame(){
     clearStatus(document.body);
-    nextButton.classList.add("hide");
     while (answerButtons.firstChild){
         answerButtons.removeChild(answerButtons.firstChild);
     }
@@ -62,6 +61,7 @@ function selectAnswer(e){
     if (shuffledQuestions.length > currentQuestionIndex + 1){
         nextButton.classList.remove("hide");
         currentQuestionIndex++;
+        
     } else {
         alert("congrats! You finished the quiz!");
     };
