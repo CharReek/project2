@@ -5,11 +5,10 @@ const questionSection = document.getElementById("question-section");
 const questionText = document.getElementById("question-text");
 const answerButtons = document.getElementById("answer-section");
 
-index=0 
 
 // vars for the questions
 
-let shuffeledQuestions, currentQuestionIndex;
+let shuffledQuestions, currentQuestionIndex;
 
 startButton.addEventListener("click", startGame);
 nextButton.addEventListener("click", () => {
@@ -21,7 +20,7 @@ nextButton.addEventListener("click", () => {
 
 function startGame(){
     startButton.classList.add("hide");
-    shuffeledQuestions = questions.sort(() => Math.random() - .5);
+    shuffledQuestions = questions.sort(() => Math.random() - .5);
     currentQuestionIndex = 0;
     questionSection.classList.remove("hide");
     setNextQuestion
@@ -29,14 +28,14 @@ function startGame(){
 
 function setNextQuestion(){
     resetGame();
-    showQuestions(shuffeledQuestions [currentQuestionIndex]);
+    showQuestion(shuffledQuestions [currentQuestionIndex]);
 }
 
-function showQuestions(question){
+function showQuestion(question){
     questionText.innerText = question.question;
-    question.answer.forEach(answer => {
+    question.answers.forEach(answer => {
         const button = document.createElement("button");
-        button.innerText = answer.correct;
+        button.innerText = answer.text;
         button.classList.add("btn");
         if (answer.correct){
             button.dataset.correct = answer.correct;
@@ -47,6 +46,7 @@ function showQuestions(question){
 }
 
 function resetGame(){
+    clearStatus(document.body)
     nextButton.classList.add("hide");
     while (answerButtons.firstChild){
         answerButtons.removeChild(answerButtons.firstChild);
@@ -54,17 +54,18 @@ function resetGame(){
 }
 
 function selectAnswer(e){
-    const selectedAnswer = e.target;
-    const correct = selectAnswer.dataset.correct;
-    array.from(answerButtons.children).forEach(button => { 
-        setStatus (button, button.dataset.correct);
-    });
-    if (shuffeledQuestions.lenght > currentQuestionIndex +1){
+    const selectedButton = e.target
+    const correct = selectedButton.dataset.correct;
+    setStatus(document.body, correct)
+    Array.from(answerButtons.children).forEach(button => { 
+        setStatus(button, button.dataset.correct);
+    })
+    if (shuffledQuestions.length > currentQuestionIndex + 1){
         nextButton.classList.remove("hide")
     } else {
         alert("congrats! You finished the quiz!")
     }
-}
+};
 
 function setStatus (element, correct){
     clearStatus(element);
@@ -95,7 +96,7 @@ const questions = [
         answers:[
             {text:"Balenciaga", correct: false},
             {text:"Gucci", correct: false},
-            {text:"Christian Loboutin", correct: true},
+            {text:"Christian Louboutin", correct: true},
             {text:"Prada", correct: false}
         ]
     },
@@ -118,7 +119,7 @@ const questions = [
         ]
     },
     {
-        question: "Which of thes ebrands were founded in England??",
+        question: "Which of these brands were founded in England??",
         answers:[
             {text:"Ganni", correct: false},
             {text:"Louis Vuitton", correct: false},

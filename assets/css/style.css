@@ -69,10 +69,6 @@ body{
     width: 40%;
 }
 
-/*score sections*/
-.score-section{
-    text-align: center;
-}
 /* button hover */
 
 #answer-section button:hover{
@@ -90,4 +86,11 @@ body{
 }
 .hide{
     display:none;
+}
+.btn.correct{
+    background-color: green;
+    color: black;
+}
+.btn.wrong{
+    background-color: red;
 }
