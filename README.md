@@ -24,7 +24,7 @@ This site is designed for users who enjoy both fashion and coding and want to fu
 
 
   # Unfixed Bugs 
-  * An unfixed bugs i have is that the colour does not change when you click on either the correct or incorrect answer. I did not have chance to fix this bug in the time frame due to not being able to figure out where the issue came from as in theory it should work correctly.i tried mutiple options and could not get it to work. 
+  * An unfixed bugs i have is that the colour does not change correctly when you click on either the correct or incorrect answer. I did not have chance to fix this bug in the time frame due to not being able to figure out where the issue came from as in theory it should work correctly.i tried mutiple options and could not get it to work. There seems to be an issue with it picking up which is correct and what is incorrect on each question. Questions where the last answer is the correct one show up as green and those with correct answers in any other position show up as red. I can identify the issue however can not pinpoint where the issue originates from.
 
 
   # Deployment

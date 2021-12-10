@@ -88,10 +88,10 @@ const questions = [
     {
         question: "What does D&G stand For?",
         answers:[
-            {text:"Dolce & Gabbana", correct: true},
             {text:"Designer & Garments", correct: false},
             {text:"Dog & Goose", correct: false},
-            {text:"Dave & Gary", correct: false}
+            {text:"Dave & Gary", correct: false},
+            {text:"Dolce & Gabbana", correct: true}
         ]
     },
     {
