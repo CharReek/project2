@@ -45,4 +45,5 @@ The live link to my website can be found below:
 
 
   # credits
-https://www.youtube.com/watch?v=riDzcEQbX6k - how to set up mutiple and make them random questions 
+  * I used the below youtube video as a guide on how to set up mutiple buttons and answers and how to randomise the questions section and implement the answers along with the question.- https://www.youtube.com/watch?v=riDzcEQbX6k
+  * I used my own fashion knowledge to come up with the questions using the knowledge i have gained over brand training events with my work. 
