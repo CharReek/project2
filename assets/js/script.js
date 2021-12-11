@@ -1,16 +1,23 @@
-// vars for the quiz
+/**
+ * main variables for the entire quiz
+ *
+ */
 const startButton = document.getElementById("start-button");
 const nextButton = document.getElementById("next-button");
 const questionSection = document.getElementById("question-section");
 const questionText = document.getElementById("question-text");
 const answerButtons = document.getElementById("answer-section");
-const currentScore = document.getElementById("current-score")
 
 
-// vars for the questions
+/**
+ * variable for the shuffle question 
+ * and question index
+ */
 
 let shuffledQuestions, currentQuestionIndex;
-
+/**
+ * event listeners for stating the game and using the next button
+ */
 startButton.addEventListener("click", startGame);
 nextButton.addEventListener("click", () => {
     setNextQuestion();
@@ -23,7 +30,6 @@ function startGame(){
     shuffledQuestions = questions.sort(() => Math.random() - .5);
     currentQuestionIndex = 0;
     questionSection.classList.remove("hide");
-    currentScore.classList.remove("hide");
     setNextQuestion();
 }
 
@@ -80,10 +86,6 @@ function setStatus (element, correct){
 function clearStatus (element){
     element.classList.remove("correct");
     element.classList.remove("wrong");
-}
-function increaseScore(){
-    let previousScore = parseInt(document.getElementById("score").innertext);
-    document.getElementById("score").innerText = ++previousScore;
 }
 
 const questions = [
