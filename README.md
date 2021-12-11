@@ -6,10 +6,10 @@ This site is designed for users who enjoy both fashion and coding and want to fu
 # Features 
 ## Excisting Features 
  
- * Header 
+ * Title 
     * The white logo is positioned at the top of the page in the center so it stands out from the backgorund. The user will automatically know what the quiz is about and what page they have landed on. The white text colour stands out form the backgound and used one of the colours i selected for my colour pallet.
 
-    image.............. 
+    ![title](assets/images/title.PNG)
 
  * Start button
     * The start button is the first section of the game that the user will see. The function of the start button is that it allows the user to chose when they want to load the questions. This then allows them time to read the rules of the game before going right into the questions.
