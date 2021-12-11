@@ -59,6 +59,10 @@ The live link to my website can be found below:
 
 
   # Credits
+  ### Media 
+  * I got the backgroun image from Pixabay, this is a roylaty free website  - https://pixabay.com/illustrations/background-doodle-fashion-women-6099868/ 
+
+  ### Content
   * I used the below youtube video as a guide on how to set up mutiple buttons and answers and how to randomise the questions section and implement the answers along with the question.- https://www.youtube.com/watch?v=riDzcEQbX6k
   * I used W3 school for help regarding how to make the backgound colour change in javascript. - https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp 
   * I used my own fashion knowledge to come up with the questions using the knowledge i have gained over brand training events with my work. 
