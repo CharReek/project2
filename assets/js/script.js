@@ -9,7 +9,6 @@ const questionText = document.getElementById("question-text");
 const answerButtons = document.getElementById("answer-section");
 
 
-
 /**
  * variable for the shuffle question 
  * and question index
