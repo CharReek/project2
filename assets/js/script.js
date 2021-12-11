@@ -4,6 +4,7 @@ const nextButton = document.getElementById("next-button");
 const questionSection = document.getElementById("question-section");
 const questionText = document.getElementById("question-text");
 const answerButtons = document.getElementById("answer-section");
+const currentScore = document.getElementById("current-score")
 
 
 // vars for the questions
@@ -22,6 +23,7 @@ function startGame(){
     shuffledQuestions = questions.sort(() => Math.random() - .5);
     currentQuestionIndex = 0;
     questionSection.classList.remove("hide");
+    currentScore.classList.remove("hide");
     setNextQuestion();
 }
 
@@ -80,10 +82,6 @@ function clearStatus (element){
     element.classList.remove("wrong");
 }
 
-// increase score
-function increaseScore{
-
-}
 const questions = [
     {
         question: "What does D&G stand For?",
