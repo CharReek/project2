@@ -101,3 +101,19 @@ body{
 .wrong{
     background-color: red;
 }
+@media screen and (max-width: 500px){
+    #anser-section button { 
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #next-button {
+        width:60%;
+    }
+    #start-button{
+        width:60%;
+        text-align: center;
+    }
+}
+    
