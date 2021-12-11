@@ -123,6 +123,9 @@ function increaseScore(){
     let previousScore = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++previousScore ;
 }
+/**
+ * function to decrease score when the answer is incorrect
+ */
 function decreaseScore(){
     let previousScore = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = --previousScore ;
