@@ -81,6 +81,10 @@ function clearStatus (element){
     element.classList.remove("correct");
     element.classList.remove("wrong");
 }
+function increaseScore(){
+    let previousScore = parseInt(document.getElementById("score").innertext);
+    document.getElementById("score").innerText = ++previousScore;
+}
 
 const questions = [
     {
