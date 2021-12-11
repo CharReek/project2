@@ -68,13 +68,16 @@ body{
 
 #answer-section button{
     padding: 20px;
-    margin: 30px;
+    margin: 20px;
     font-size: 20px;
     background-color:#F4CAF9;
     display: inline-block;
     border-radius: 10px;
     border: 2px solid #4F4350;
     width: 40%;
+}
+#answe-section {
+    width: 90%;
 }
 
 /* button hover */
@@ -115,6 +118,13 @@ body{
     #start-button{
         width:60%;
         text-align: center;
+    }
+    #quesion-text{
+        font-size: 15px;
+    }
+    .game-box{
+        padding: 0px;
+        margin: 0px;
     }
 }
     
