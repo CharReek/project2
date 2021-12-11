@@ -38,6 +38,7 @@ body{
     width: 25%;
 }
 
+/* next button*/
 #next-button{
     padding: 20px;
     margin: 30px;
@@ -76,10 +77,10 @@ body{
     border: 2px solid #4F4350;
     width: 70%;
 }
-#answe-section {
-    width: 90%;
-}
 
+#rules {
+    font-size: 15px;
+}
 /* button hover */
 
 #answer-section button:hover{
@@ -97,13 +98,6 @@ body{
 }
 .hide{
     display:none;
-}
-.correct{
-    background-color: green;
-    color: black;
-}
-.wrong{
-    background-color: red;
 }
 @media screen and (max-width: 500px){
     #anser-section button { 
