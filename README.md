@@ -19,6 +19,7 @@ This site is designed for users who enjoy both fashion and coding and want to fu
   i would also liek to add more questiosn to the quiz and set a question limit to 10 so that every time you play the quiz you get a different selection of questions. therefore testing the users knowledge on fashion and entising them in to try again. 
 
   # Testing
+I tested this page mutiple times to ensure that every button that was clicked returned the correct colour on each question depending on what the user clicks. I did this by noting down what options i chose each time to ensure that I checked all of the different answer options. 
 
   ## Validator Testing 
   * HTML 
