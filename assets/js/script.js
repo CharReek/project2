@@ -102,6 +102,7 @@ function setStatus (element, correct){
     } else {
         element.classList.add("wrong");
         element.style.backgroundColor = "red";
+        decreaseScore();
     }
     clearStatus(element);
 }
@@ -114,9 +115,17 @@ function clearStatus (element){
     element.classList.remove("wrong");
 }
 
+/**
+ * fucntion to increase score when the answer is correct 
+ */
+
 function increaseScore(){
     let previousScore = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++previousScore ;
+}
+function decreaseScore(){
+    let previousScore = parseInt(document.getElementById("score").innerText);
+    document.getElementById("score").innerText = --previousScore ;
 }
 
 /**
