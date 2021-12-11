@@ -58,6 +58,11 @@ body{
 #question-section{
     padding-top: 20px;
 }
+
+#question-text {
+    font-size: 20px;
+    font-weight: bold;
+}
 /* answer section*/
 
 #answer-section button{
