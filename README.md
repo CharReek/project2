@@ -12,7 +12,7 @@ This site is designed for users who enjoy both fashion and coding and want to fu
     image.............. 
 
  * Start button
-    * The start button  
+    * The start button is the first section of the game that the user will see. The function of the start button is that it allows the user to chose when they want to load the questions. This then allows them time to read the rules of the game before going right into the questios
  * Questions 
  * Answer Buttons 
  * Next Button 
