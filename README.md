@@ -13,7 +13,17 @@ This site is designed for users who enjoy both fashion and coding and want to fu
 
  * Start button
     * The start button is the first section of the game that the user will see. The function of the start button is that it allows the user to chose when they want to load the questions. This then allows them time to read the rules of the game before going right into the questions.
- * Questions 
+
+    image ..........
+
+ * Rules 
+    * The rules section explains to the user what they have to do in the quiz and how to use the buttons. It clarifies that if the button goes green then they got the answer correct however if they got it wrong it will turn red. It also explains that incorrect answers will results in negative points. 
+
+    image ........
+ * Questions
+   * The questiosn section is the main part of the quiz, i ahve added a mixture of easy and hard questions so the the user does not get discouraged if they do not get the hard questiosn correct. this will amke for a more positive user experience and reduces the risk of the user ending the quiz with a negative score.
+
+   image .... 
  * Answer Buttons 
  * Next Button 
 
