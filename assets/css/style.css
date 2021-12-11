@@ -111,6 +111,7 @@ body{
         width: 100%;
         margin: 0px;
         padding: 0px;
+        font-size: 10px;
     }
     #next-button {
         width:60%;
@@ -122,9 +123,8 @@ body{
     #quesion-text{
         font-size: 15px;
     }
-    .game-box{
+    button btn{
         padding: 0px;
-        margin: 0px;
     }
 }
     

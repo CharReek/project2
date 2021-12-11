@@ -155,7 +155,7 @@ const questions = [
     {
         question: "Who designed the iconic Jlo Green dress that she wore to the 42nd Grammys in 2000?",
         answers:[
-            {text:"Moschino", correct: true},
+            {text:"Moschino", correct: false},
             {text:"Valentino", correct: false},
             {text:"Dior", correct: false},
             {text:"Versace", correct: true}
