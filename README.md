@@ -25,7 +25,14 @@ This site is designed for users who enjoy both fashion and coding and want to fu
 
    image .... 
  * Answer Buttons 
+   * I chose to do a mutiple choice section due to them being more difficult questions if you are not into fashion, with this option people are more likely to try the quiz and have a guess at the answer. This the results in a more positive user experience. The mutiple chocie options also help to avoid any incorrect answers due to spelling mistakes (Some brand names can be quite complicated). 
+
+   image ..... 
+
  * Next Button 
+   * The next button leave it up to the user when they want to progress onto the next question. However the next button can not be clicked untill an answer is selected this means user can accidentally skip a question if they click too many times. it gives the user more control over the quiz if they wanted to do it at a slower pace.
+
+   image ..... 
 
  ### Feautures left to impliment 
   * Progress Bar 
