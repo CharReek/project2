@@ -60,15 +60,15 @@ body{
 }
 
 #question-text {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     padding-bottom: 20px;
 }
 /* answer section*/
 
 #answer-section button{
-    padding: 18px;
-    margin: 20px;
+    padding: 15px;
+    margin: 15px;
     font-size: 20px;
     background-color:#F4CAF9;
     display: inline-block;
