@@ -14,12 +14,12 @@ This site is designed for users who enjoy both fashion and coding and want to fu
 
  ### Feautures left to impliment 
   * Progress Bar 
-  One feautre i would like to impliment is a score area, where users can see how many questions that they got right. I would also like to ensure that it stores this so they can retry the quiz to beat any previous scores. 
+  One feautre i would like to impliment is a progress bar, so that the users know how far into the quiz they are and how many questions they have left. This would be a great feature to add for users as they are more likely to close the quiz down if they believe its going to be too time consuming.
   * More Questions 
   I would also like to add more questiosn to the quiz and set a question limit to 10 so that every time you play the quiz you get a different selection of questions. therefore testing the users knowledge on fashion and entising them in to try again. 
 
   # Testing
-I tested this page mutiple times to ensure that every button that was clicked returned the correct colour on each question depending on what the user clicks. I did this by noting down what options i chose each time to ensure that I checked all of the different answer options. I made sure that the score function increased when i needed to and decreaed at the correct times.
+  I tested this page mutiple times to ensure that every button that was clicked returned the correct colour on each question depending on what the user clicks. I did this by noting down what options i chose each time to ensure that I checked all of the different answer options. I made sure that the score function increased when i needed to and decreaed at the correct times.
 
   ## Validator Testing 
   * HTML 
