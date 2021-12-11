@@ -80,6 +80,10 @@ function clearStatus (element){
     element.classList.remove("wrong");
 }
 
+// increase score
+function increaseScore{
+
+}
 const questions = [
     {
         question: "What does D&G stand For?",
