@@ -17,13 +17,18 @@ const answerButtons = document.getElementById("answer-section");
 let shuffledQuestions, currentQuestionIndex;
 /**
  * event listeners for stating the game and using the next button
+ * sets the next question on click 
  */
 startButton.addEventListener("click", startGame);
 nextButton.addEventListener("click", () => {
     setNextQuestion();
 });
 
-//quiz function 
+/**
+ * start game function 
+ * hides the start button and brings up the first random question 
+ * and the next button
+ */
 
 function startGame(){
     startButton.classList.add("hide");
@@ -33,10 +38,17 @@ function startGame(){
     setNextQuestion();
 }
 
+/**
+ * pulls a random question from the array
+ */
 function setNextQuestion(){
     resetGame();
     showQuestion(shuffledQuestions [currentQuestionIndex]);
 }
+
+/**
+ * pulls up the next set of question and answers 
+ */
 
 function showQuestion(question){
     questionText.innerText = question.question;
@@ -52,6 +64,9 @@ function showQuestion(question){
     });
 }
 
+/**
+ * clears any coloured buttons ready for the next question
+ */
 function resetGame(){
     clearStatus(document.body);
     while (answerButtons.firstChild){
@@ -59,6 +74,10 @@ function resetGame(){
     }
 }
 
+/**
+ * checks to see if the users answer is correct 
+ * then calls the fuction to change the colour 
+ */
 function selectAnswer(e){
     const selectedButton = e.target;
     const correct = selectedButton.dataset.correct;
@@ -71,7 +90,9 @@ function selectAnswer(e){
         alert("congrats! You finished the quiz!");
     }
 }
-
+/**
+ * this function changes the colour depending on the answer 
+ */
 function setStatus (element, correct){
     if (correct){
         element.classList.add("correct");
@@ -83,11 +104,17 @@ function setStatus (element, correct){
     clearStatus(element);
 }
 
+/**
+ * this function clears any colours from pervious answers 
+ */
 function clearStatus (element){
     element.classList.remove("correct");
     element.classList.remove("wrong");
 }
 
+/**
+ * an array of the questions in the quiz
+ */
 const questions = [
     {
         question: "What does D&G stand For?",
