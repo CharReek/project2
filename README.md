@@ -4,7 +4,8 @@
 We all want to be the best at what we know,The ultimate fashion quiz is designed to test the users knowledge on all things luxury fashion. This interactive quiz gives users the ability to select one of four answers to each question. This quiz gives the users an opportunity to both learn and test there knowlege of a mix of easy and hard questions.The score section can add competition between friends or even agaist your previous score. 
 This site is designed for users who enjoy both fashion and coding and want to fuse the two together. This is my first step into bringing the two things i enjoy most coding and fashion into the same space so those like me can enjoy the two things together.
 
-![screens](assets/images/screen.PNG)
+![screens](assets/images/screens.PNG)
+
 # Features 
 ## Excisting Features 
  
@@ -15,25 +16,26 @@ This site is designed for users who enjoy both fashion and coding and want to fu
 
  * Start button
     * The start button is the first section of the game that the user will see. The function of the start button is that it allows the user to chose when they want to load the questions. This then allows them time to read the rules of the game before going right into the questions.
-    ![start button](assets.images/start.PNG)
+    
+    ![startButton](assets/images/start.PNG)
     
  * Rules 
     * The rules section explains to the user what they have to do in the quiz and how to use the buttons. It clarifies that if the button goes green then they got the answer correct however if they got it wrong it will turn red. It also explains that incorrect answers will results in negative points. 
 
-    image ........
+    ![rules](assets/images/rules.PNG)
  * Questions
    * The questiosn section is the main part of the quiz, i ahve added a mixture of easy and hard questions so the the user does not get discouraged if they do not get the hard questiosn correct. this will amke for a more positive user experience and reduces the risk of the user ending the quiz with a negative score.
 
-   image .... 
+  ![questions](assets/images/questions.PNG)
  * Answer Buttons 
    * I chose to do a mutiple choice section due to them being more difficult questions if you are not into fashion, with this option people are more likely to try the quiz and have a guess at the answer. This the results in a more positive user experience. The mutiple chocie options also help to avoid any incorrect answers due to spelling mistakes (Some brand names can be quite complicated). 
 
-   image ..... 
-
+   ![answerButton](assets/images/answers.PNG)
+   
  * Next Button 
    * The next button leave it up to the user when they want to progress onto the next question. However the next button can not be clicked untill an answer is selected this means user can accidentally skip a question if they click too many times. it gives the user more control over the quiz if they wanted to do it at a slower pace.
 
-   image ..... 
+   ![next Button](assets/images/next.PNG)
 
  ### Feautures left to impliment 
   * Progress Bar 
