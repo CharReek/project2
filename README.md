@@ -3,6 +3,8 @@
 # The Ultimate Fashion Quiz
 We all want to be the best at what we know,The ultimate fashion quiz is designed to test the users knowledge on all things luxury fashion. This interactive quiz gives users the ability to select one of four answers to each question. This quiz gives the users an opportunity to both learn and test there knowlege of a mix of easy and hard questions.The score section can add competition between friends or even agaist your previous score. 
 This site is designed for users who enjoy both fashion and coding and want to fuse the two together. This is my first step into bringing the two things i enjoy most coding and fashion into the same space so those like me can enjoy the two things together.
+
+![screens](assets/image/screen.PNG)
 # Features 
 ## Excisting Features 
  
