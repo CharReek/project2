@@ -33,29 +33,26 @@ This site is designed for users who enjoy both fashion and coding and want to fu
        * The Function with the largest signature take 2 arguments, while the median is 0.
        * The Largest function has 8 statements in it, while the median is 2.5.
        * The most complex function has a cyclomatic complexity value of 2 while the median is 1.
-  
-
 
   # Unfixed Bugs 
   * There are no unfixed bugs that i am aware of.
 
-
   # Deployment
-I deployed my site using github using the following process: 
-1. Go to your git hub repositories, then click on the repository you want to deploy. 
-2. Go into the settings page, this is located across the top bar.
-3. Then go to the pages tab, this can be located on the left hand side.
-4. When you have reached the pages tab,find the source section.
-5. Tis will contain a drop down menu.
-6. From this drop down menu select the main branch.
-7. After you have done this pess save. 
-8. The page will then refresh and a banner will appear with the live link to your page. 
-9. Finally click the link and this will take you to the live page. 
-
-Notes: The live page may take a few minutes to be deployed so may not work straight away 
-
-The live link to my website can be found below:
- https://charreek.github.io/project2/ 
+  I deployed my site using github using the following process: 
+  1. Go to your git hub repositories, then click on the repository you want to deploy. 
+  2. Go into the settings page, this is located across the top bar.
+  3. Then go to the pages tab, this can be located on the left hand side.
+  4. When you have reached the pages tab,find the source section.
+  5. Tis will contain a drop down menu.
+  6. From this drop down menu select the main branch.
+  7. After you have done this pess save. 
+  8. The page will then refresh and a banner will appear with the live link to your page. 
+  9. Finally click the link and this will take you to the live page. 
+  
+  Notes: The live page may take a few minutes to be deployed so may not work straight away 
+  
+  The live link to my website can be found below:
+   https://charreek.github.io/project2/ 
 
 
   # Credits
