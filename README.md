@@ -7,7 +7,12 @@ This site is designed for users who enjoy both fashion and coding and want to fu
 ## Excisting Features 
  
  * Header 
- * Start button 
+    * The white logo is positioned at the top of the page in the center so it stands out from the backgorund. The user will automatically know what the quiz is about and what page they have landed on. The white text colour stands out form the backgound and used one of the colours i selected for my colour pallet.
+
+    image.............. 
+
+ * Start button
+    * The start button  
  * Questions 
  * Answer Buttons 
  * Next Button 
