@@ -29,9 +29,9 @@ This site is designed for users who enjoy both fashion and coding and want to fu
   * Javascript
      * There was no errors foudn when passsing it through the offcial JSHint Validator
        * It returned the following metrics 
-       * There are 10 functions in this file
-       * The Function with the largest signature take 2 arguments, while the median is 0.5.
-       * The Largest function has 7 statements in it, while the median is 2.5.
+       * There are 12 functions in this file
+       * The Function with the largest signature take 2 arguments, while the median is 0.
+       * The Largest function has 8 statements in it, while the median is 2.5.
        * The most complex function has a cyclomatic complexity value of 2 while the median is 1.
   
 
