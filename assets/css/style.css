@@ -60,8 +60,9 @@ body{
 }
 
 #question-text {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
+    padding-bottom: 50px;
 }
 /* answer section*/
 
