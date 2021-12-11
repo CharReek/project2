@@ -13,13 +13,13 @@ This site is designed for users who enjoy both fashion and coding and want to fu
  * Next Button 
 
  ### Feautures left to impliment 
-  * Score Area 
+  * Progress Bar 
   One feautre i would like to impliment is a score area, where users can see how many questions that they got right. I would also like to ensure that it stores this so they can retry the quiz to beat any previous scores. 
   * More Questions 
-  i would also liek to add more questiosn to the quiz and set a question limit to 10 so that every time you play the quiz you get a different selection of questions. therefore testing the users knowledge on fashion and entising them in to try again. 
+  I would also like to add more questiosn to the quiz and set a question limit to 10 so that every time you play the quiz you get a different selection of questions. therefore testing the users knowledge on fashion and entising them in to try again. 
 
   # Testing
-I tested this page mutiple times to ensure that every button that was clicked returned the correct colour on each question depending on what the user clicks. I did this by noting down what options i chose each time to ensure that I checked all of the different answer options. 
+I tested this page mutiple times to ensure that every button that was clicked returned the correct colour on each question depending on what the user clicks. I did this by noting down what options i chose each time to ensure that I checked all of the different answer options. I made sure that the score function increased when i needed to and decreaed at the correct times.
 
   ## Validator Testing 
   * HTML 
@@ -65,4 +65,5 @@ The live link to my website can be found below:
   ### Content
   * I used the below youtube video as a guide on how to set up mutiple buttons and answers and how to randomise the questions section and implement the answers along with the question.- https://www.youtube.com/watch?v=riDzcEQbX6k
   * I used W3 school for help regarding how to make the backgound colour change in javascript. - https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp 
-  * I used my own fashion knowledge to come up with the questions using the knowledge i have gained over brand training events with my work. 
+  * I used my own fashion knowledge to come up with the questions using the knowledge i have gained over brand training events with my work.
+  * I referenced the CI love math project for when i got stuck on the increasing score function.
