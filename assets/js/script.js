@@ -7,6 +7,7 @@ const nextButton = document.getElementById("next-button");
 const questionSection = document.getElementById("question-section");
 const questionText = document.getElementById("question-text");
 const answerButtons = document.getElementById("answer-section");
+const currentScore = document.getElementById("current-score");
 
 
 /**
@@ -97,6 +98,7 @@ function setStatus (element, correct){
     if (correct){
         element.classList.add("correct");
         element.style.backgroundColor = "green";
+        increaseScore();
     } else {
         element.classList.add("wrong");
         element.style.backgroundColor = "red";
@@ -110,6 +112,11 @@ function setStatus (element, correct){
 function clearStatus (element){
     element.classList.remove("correct");
     element.classList.remove("wrong");
+}
+
+function increaseScore(){
+    let previousScore = parseInt(document.getElementById("score").innerText);
+    document.getElementById("score").innerText = ++previousScore ;
 }
 
 /**
