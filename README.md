@@ -26,7 +26,7 @@ This site is designed for users who enjoy both fashion and coding and want to fu
  * Questions
    * The questiosn section is the main part of the quiz, i ahve added a mixture of easy and hard questions so the the user does not get discouraged if they do not get the hard questiosn correct. this will amke for a more positive user experience and reduces the risk of the user ending the quiz with a negative score.
 
-  ![questions](assets/images/questions.PNG)
+  ![questions](assets/images/question.PNG)
  * Answer Buttons 
    * I chose to do a mutiple choice section due to them being more difficult questions if you are not into fashion, with this option people are more likely to try the quiz and have a guess at the answer. This the results in a more positive user experience. The mutiple chocie options also help to avoid any incorrect answers due to spelling mistakes (Some brand names can be quite complicated). 
 
